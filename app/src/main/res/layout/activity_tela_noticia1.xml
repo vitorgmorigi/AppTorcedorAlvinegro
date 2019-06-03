@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="349dp"
-        android:layout_height="65dp"
+        android:layout_width="343dp"
+        android:layout_height="68dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="20dp"
@@ -18,14 +18,14 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="343dp"
-        android:layout_height="404dp"
+        android:layout_width="336dp"
+        android:layout_height="390dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -41,16 +41,15 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="222dp"
-        android:layout_height="155dp"
+        android:layout_width="171dp"
+        android:layout_height="110dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.817"
         app:srcCompat="@drawable/alipio" />
 </android.support.constraint.ConstraintLayout>

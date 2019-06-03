@@ -12,8 +12,5 @@ public class TelaNoticia2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_noticia2);
     }
-    public void voltaParaTelaNoticias(View view){
-        Intent intent = new Intent(getApplicationContext(), TelaNoticias.class);
-        startActivity(intent);
-    }
+
 }
