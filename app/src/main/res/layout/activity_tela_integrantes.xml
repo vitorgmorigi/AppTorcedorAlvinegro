@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#161414"
     tools:context=".TelaIntegrantes">
 
     <TableLayout
@@ -24,7 +25,8 @@
                 android:autoSizeTextType="uniform"
                 android:ems="10"
                 android:text="Integrantes"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -38,7 +40,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Denis" />
+                android:text="Denis"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog1"
@@ -46,7 +49,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Goleiro" />
+                android:text="Goleiro"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -60,7 +64,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Alemão Teixeira" />
+                android:text="Alemão Teixeira"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog2"
@@ -68,7 +73,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Lateral Direito" />
+                android:text="Lateral Direito"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -82,7 +88,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Alemão" />
+                android:text="Alemão"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog3"
@@ -90,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Zagueiro Direito" />
+                android:text="Zagueiro Direito"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -104,7 +112,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Ruan Renato" />
+                android:text="Ruan Renato"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog4"
@@ -112,7 +121,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="textPersonName"
-                android:text="Zagueiro Esquerdo" />
+                android:text="Zagueiro Esquerdo"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -125,14 +135,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Matheus Destro " />
+                android:text="Matheus Destro "
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Lateral Esquerdo" />
+                android:text="Lateral Esquerdo"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -145,14 +157,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Zé Antônio" />
+                android:text="Zé Antônio"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Volante" />
+                android:text="Volante"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -165,14 +179,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Betinho" />
+                android:text="Betinho"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Volante" />
+                android:text="Volante"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -185,14 +201,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Tony" />
+                android:text="Tony"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Meia Central" />
+                android:text="Meia Central"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -205,14 +223,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Fellipe Mateus" />
+                android:text="Fellipe Mateus"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Atacante" />
+                android:text="Atacante"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -225,14 +245,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Matheus Lucas" />
+                android:text="Matheus Lucas"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Atacante" />
+                android:text="Atacante"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -245,14 +267,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Willian Popp" />
+                android:text="Willian Popp"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/posicaoJog11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Atacante" />
+                android:text="Atacante"
+                android:textColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
