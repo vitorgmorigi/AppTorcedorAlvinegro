@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), TelaResultados.class);
         startActivity(intent);
     }
+
+    public void vaiParaTelaIntegrantes(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaIntegrantes.class);
+        startActivity(intent);
+    }
 }
