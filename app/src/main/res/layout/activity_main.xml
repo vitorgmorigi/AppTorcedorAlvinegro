@@ -79,7 +79,8 @@
         android:layout_marginEnd="116dp"
         android:text="Vídeos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="vaiParaTelaVideos" />
 
     <Button
         android:id="@+id/button5"

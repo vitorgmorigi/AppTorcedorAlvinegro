@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), TelaNoticias.class);
         startActivity(intent);
     }
+
+    public void vaiParaTelaVideos(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaVideos.class);
+        startActivity(intent);
+    }
 }
