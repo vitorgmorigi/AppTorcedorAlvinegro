@@ -24,7 +24,9 @@ public class TelaVideos extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager( new LinearLayoutManager(this));
 
-        videosYoutube.add( new VideosYoutube("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/-7tl-gxlvfs\" frameborder=\"0\" allowfullscreen></iframe>") );;
+        videosYoutube.add( new VideosYoutube("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/-7tl-gxlvfs\" frameborder=\"0\" allowfullscreen></iframe>") );
+        videosYoutube.add( new VideosYoutube("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/QYBCVdv2Nkg\" frameborder=\"0\" allowfullscreen></iframe>") );
+        videosYoutube.add( new VideosYoutube("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/cIX0xiUH36g\" frameborder=\"0\" allowfullscreen></iframe>") );
 
         VideoAdapter videoAdapter = new VideoAdapter(videosYoutube);
 
