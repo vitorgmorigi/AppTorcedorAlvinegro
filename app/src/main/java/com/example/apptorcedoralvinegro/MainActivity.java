@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), TelaIntegrantes.class);
         startActivity(intent);
     }
+
+    public void vaiParaTelaNoticias(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaNoticias.class);
+        startActivity(intent);
+    }
 }

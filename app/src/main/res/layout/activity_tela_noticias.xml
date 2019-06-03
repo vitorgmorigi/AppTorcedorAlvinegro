@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161414"
+    tools:context=".TelaNoticias">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="91dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="Notícias"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="353dp"
+        android:layout_height="333dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.387">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/noticia1"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:onClick="vaiParaTelaNoticia1"
+                android:soundEffectsEnabled="false"
+                android:text="Fora contra o Atlético-GO, Alípio negocia saída do Figueirense"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="630dp" />
+
+        </TableRow>
+
+
+        />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/noticia2"
+                android:layout_width="360dp"
+                android:layout_height="42dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:onClick="vaiParaTelaNoticia2"
+                android:text="Árbitro assinala gol contra em vitória do Figueira, e Alemão Teixeira lamenta: ''Só desviou''"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="630dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/noticia3"
+                android:layout_width="360dp"
+                android:layout_height="42dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:onClick="vaiParaTelaNoticia3"
+                android:text="Maria destaca jogo consistente e dedicação do grupo em vitória do Figueira"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="630dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

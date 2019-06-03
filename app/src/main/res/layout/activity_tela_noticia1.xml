@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161414"
+    tools:context=".TelaNoticia1">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="349dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
+        android:text="Fora contra o Atlético-GO, Alípio negocia saída do Figueirense"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="343dp"
+        android:layout_height="404dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Anunciado como reforço do Figueira no dia 31 de dezembro de 2018, Alípio negocia a saída do clube catarinense. A informação foi dada por Hemerson Maria logo após a vitória da equipe sobre o Atlético-GO. De acordo com o comandante do Furacão, o atleta ficou fora da lista de relacionados para não correr o risco de se machucar.  Ainda segundo o técnico, a opção de não utilizar o atacante na sexta rodada da Série B do Campeonato Brasileiro foi dele.  – Não vou fazer sacanagem. É um dos jogadores mais inteligentes do grupo. Fez uma temporada magnífica em 2017 comigo pelo Vila Nova, mas aqui não vivenciou os bons momentos. E, junto a isso, trouxemos outros atletas, e o jogador acaba perdendo espaço. Ele é um cara de mercado, jogou em vários clubes – explicou.  Alípio entrou em campo em 21 partidas com a camisa preta e branca, entre Catarinense, Copa do Brasil e Série B, e marcou quatro gols. O atacante iniciou o ano como titular, mas não se firmou na equipe.  – Ele teve escola no Real Madrid, tem caráter excepcional, é um grande atleta. Se a negociação não der certo, vai ter oportunidade – finalizou Hemerson Maria."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="222dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/alipio" />
+</android.support.constraint.ConstraintLayout>

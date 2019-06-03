@@ -5,12 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class TelaResultados extends AppCompatActivity {
+public class TelaNoticia2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_resultados);
+        setContentView(R.layout.activity_tela_noticia2);
     }
-
+    public void voltaParaTelaNoticias(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaNoticias.class);
+        startActivity(intent);
+    }
 }
