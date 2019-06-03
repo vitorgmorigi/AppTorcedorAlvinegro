@@ -11,36 +11,43 @@
         android:id="@+id/button6"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="96dp"
+        android:onClick="vaiParaTelaResultados"
         android:text="Resultados"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="vaiParaTelaResultados"
-        />
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="360dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="96dp"
+        android:onClick="vaiParaTelaNoticias"
         android:text="Notícias"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="vaiParaTelaNoticias"
-        />
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="252dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="96dp"
+        android:onClick="vaiParaTelaIntegrantes"
         android:text="Integrantes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="vaiParaTelaIntegrantes"/>
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <TextView
         android:id="@+id/textView2"
@@ -75,22 +82,31 @@
         android:id="@+id/button"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="584dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="vaiParaTelaVideos"
         android:text="Vídeos"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="vaiParaTelaVideos" />
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.013" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="472dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="96dp"
         android:text="Agenda"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <ImageView
         android:id="@+id/imageView"
