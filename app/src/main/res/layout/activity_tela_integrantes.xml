@@ -17,13 +17,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/integrantesHeader"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
                 android:autoSizeTextType="uniform"
-                android:ems="10"
                 android:text="Integrantes"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF" />
