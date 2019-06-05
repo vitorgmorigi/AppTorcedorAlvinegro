@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".TelaOrigem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#161414">
+
+        <LinearLayout
+            android:layout_width="362dp"
+            android:layout_height="1172dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:autoSizeTextType="uniform"
+                android:text="Origem"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="none"
+                android:text="A história do alvinegro iniciou com o sonho de um jovem desportista e um grupo de amigos, entusiastas do remo e do futebol, em criar um novo clube de futebol para a capital. No início do século XX, esse jovem ousado passou a propagar entre seus amigos e demais simpatizantes do futebol a ideia justamente no momento em que o futebol de Florianópolis e região apresentava-se em declínio com o desaparecimento de algumas agremiações. \n"
+                android:textColor="#F8FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="none"
+                android:text="Foi da determinação de Jorge Albino Ramos que nasceu o propósito de fundar o Figueirense Futebol Clube. O que não estava previsto na época é que o recém-fundado clube, mais tarde, pudesse se tornar o mais vezes campeão do estado e uma das forças do futebol brasileiro. \n"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seu primeiro passo foi conquistar a simpatia de seus conterrâneos e igualmente admiradores do futebol, que naquela época já contava com vários clubes no País, especialmente nas capitais dos principais estados. Os primeiros parceiros, que formaram um seleto grupo, foram: Balbino Felisbino da Silva, Domingos Joaquim Veloso e João Savas Siridakis. \n"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Com dia e hora marcada para o encontro, em maio de 1921, o grupo que anteriormente se reunia para as costumeiras conversas sobre futebol, agora focava na criação do novo clube de futebol para capital. Com o cenário da Praça XV de Novembro, os bate-papos do dia a dia tinham em pauta decisões importantes como a escolha do nome para a futura agremiação, suas cores, sede, nomes e cargos da primeira diretoria. \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Já no início de junho, João Savas Siridakis, mais conhecido como Janga, defendia a ideia de que o clube deveria chamar-se Figueirense. Defendia tal nome porque muitos dos encontros que tratavam da criação da nova agremiação aconteciam na localidade da Figueira, famosa árvore centenária do Centro da cidade, que certamente também colaborou para a inspiração de Janga. O grupo de parceiros também definiram o dia 12 de junho como a data que marcaria a fundação da nova sociedade esportiva. \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Com a data da fundação definida, o próximo passo foi dado por Ulisses Carlos Tolentino, amigo dos idealizadores, que ofereceu sua residência localizada na Rua Padre Roma para a realização do tão esperado encontro que trataria dos preparativos finais para a solenidade de inauguração. Na reunião, cada um acabou ganhando uma função, que tomaria as providências necessárias para a criação da nova agremiação. O livro onde seria redigida a ata de fundação foi prontamente providenciado por Balbino Felisbino da Silva, cabendo a Jorge Ramos, Domingos Veloso e Janga convidarem os demais participantes do encontro além de, em conjunto com o anfitrião Ulisses Tolentino, estabelecer o horário das 19 horas para o início da reunião. \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A formação da primeira diretoria aconteceu antecipadamente, com uma reunião preparatória no dia 11 de junho, na barbearia de Jorge Ramos, então situada na esquina das ruas Pedro Ivo com Conselheiro Mafra. Foi nessa mesma reunião que aconteceu a adesão de João dos Passos Xavier ao grupo. Xavier, que após tomar conhecimento do movimento para fundação de uma equipe de futebol e das pessoas que lideravam tal intento, prontamente acolheu a ideia. O recém-chegado João dos Passos Xavier logo foi convidado pelo grupo para assumir uma posição de destaque, já que segundo decisão do grupo, o cargo de presidente estava reservado a ele. Feito o convite, a resposta foi afirmativa. \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Após definidas as atribuições e nomeado o futuro presidente, chega o tão esperado dia da reunião na residência de Ulisses Tolentino, que daria início à fundação do glorioso clube alvinegro. Com muita motivação e na hora marcada, por volta das 18h30min, os primeiros participantes chegavam à reunião que contou com a presença dos senhores: João dos Passos Xavier, Ulisses Carlos Tolentino, Heleodoro Ventura, Higino Ludovico da Silva, Jorge Albino Ramos, Balbino Felisbino da Silva, Domingos Felisbino da Silva, Bruno Ventura, Jorge Araújo Figueiredo, Domingos Joaquim Veloso, João Savas Siridakis, Carlito Honório Silveira da Silva, Leopoldo Silva, Raimundo Nascimento, Pedro Xavier, João S. Manoel Xavier, Alberto Moritz, Delgídio Dutra Filho, Agenor Póvoas, Joaquim Manoel Fraga, Pedro Francisco Neves e Walfredo Silva. \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O domingo de outono do dia 12 de junho fica então marcado na história do Figueirense pelo acontecimento da reunião que deu início à fundação da sociedade batizada de FIGUEIRENSE FOOT BALL CLUB. \n Coube a Jorge Albino Ramos presidir a primeira reunião, que escolheu por aclamação os seguintes nomes para compor a primeira diretoria: \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Presidente: João dos Passos Xavier \n - Vice-Presidente: Heleodoro Ventura \n - 1º Secretário: Balbino Felisbino da Silva \n - 2º Secretário: Jorge Felisbino da Silva \n - 1º Tesoureiro: Jorge Albino Ramos \n - 2º Tesoureiro: Jorge Araújo Figueiredo \n - Orador: Trajano Margarida \n - Guarda Esporte: Higino Ludovico da Silva \n"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Empossada a diretoria, o presidente eleito pelo grupo, João dos Passos Xavier, fez o uso da palavra, ressaltando a dedicação de Jorge Albino Ramos em liderar o movimento para a fundação do Figueirense F.C., no momento em que o futebol em Florianópolis apresentava-se em decadência com o desaparecimento do Grêmio Anita Garibaldi. Na oportunidade, agradeceu a Ulisses Carlos Tolentino por ter cedido as dependências de sua residência, enaltecendo a presença de numeroso grupo de simpatizantes."
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

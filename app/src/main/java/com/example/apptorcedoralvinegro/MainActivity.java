@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), TelaVideos.class);
         startActivity(intent);
     }
+
+    public void vaiParaTelaOrigem(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaOrigem.class);
+        startActivity(intent);
+    }
 }
