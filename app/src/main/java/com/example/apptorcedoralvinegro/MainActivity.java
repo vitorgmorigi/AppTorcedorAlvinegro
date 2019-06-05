@@ -37,4 +37,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), TelaOrigem.class);
         startActivity(intent);
     }
+
+    public void vaiParaTelaAgenda(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaAgenda.class);
+        startActivity(intent);
+    }
 }

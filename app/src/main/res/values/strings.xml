@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">AppTorcedorAlvinegro</string>
     <string name="title_activity_tela_integrantes">TelaIntegrantes</string>
+    <string name="title_activity_jogo1">Map</string>
+    <string name="title_activity_mapa_rodada8">Map</string>
+    <string name="title_activity_mapa_rodada9">Map</string>
 
 </resources>
